@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		520A605221290B80001DD527 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 520A605121290B80001DD527 /* main.c */; };
+		520A605221290B80001DD527 /* hello.c in Sources */ = {isa = PBXBuildFile; fileRef = 520A605121290B80001DD527 /* hello.c */; };
+		520A605921291156001DD527 /* FtoCConverter.c in Sources */ = {isa = PBXBuildFile; fileRef = 520A605821291156001DD527 /* FtoCConverter.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		520A604E21290B80001DD527 /* C programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C programming"; sourceTree = BUILT_PRODUCTS_DIR; };
-		520A605121290B80001DD527 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		520A605121290B80001DD527 /* hello.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hello.c; sourceTree = "<group>"; };
+		520A605821291156001DD527 /* FtoCConverter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FtoCConverter.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 		520A605021290B80001DD527 /* C programming */ = {
 			isa = PBXGroup;
 			children = (
-				520A605121290B80001DD527 /* main.c */,
+				520A605121290B80001DD527 /* hello.c */,
+				520A605821291156001DD527 /* FtoCConverter.c */,
 			);
 			path = "C programming";
 			sourceTree = "<group>";
@@ -118,7 +121,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520A605221290B80001DD527 /* main.c in Sources */,
+				520A605921291156001DD527 /* FtoCConverter.c in Sources */,
+				520A605221290B80001DD527 /* hello.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
